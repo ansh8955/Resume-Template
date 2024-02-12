@@ -1,7 +1,11 @@
 # Resume Maker Project README
 
+
+
 ## Project Overview
 This project aims to develop a user-friendly application for creating and managing resumes efficiently. The Resume Maker will provide users with a simple interface to input their personal and professional information, choose from various resume templates, and generate professional-looking resumes.
+
+
 
 ## Features
 1. **Profile Management:** Users can create and manage their profiles, including personal details, contact information, education, work experience, skills, etc.
@@ -13,6 +17,9 @@ This project aims to develop a user-friendly application for creating and managi
 
 ## Technologies Used
 - **Frontend:** HTML5, CSS3, JavaScript.
+
+- ![image](https://github.com/ansh8955/Resume-Template/assets/84927134/b2e3258e-2bba-488f-a60a-cd75d0280d80)
+
 ## Getting Started
 1. Clone the repository from GitHub:(https://github.com/ansh8955/Resume-Template)
 2. Install dependencies by running `npm install`.
@@ -31,3 +38,6 @@ For any inquiries or issues, please contact [upadhyayaansh094@gmail.com].
 
 ## Disclaimer
 This project is developed for educational and learning purposes. It does not guarantee job offers or employment opportunities. Users are advised to verify and validate the information provided in their resumes before sharing them with potential employers.
+
+
+
