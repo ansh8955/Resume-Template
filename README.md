@@ -14,7 +14,7 @@ This project aims to develop a user-friendly application for creating and managi
 ## Technologies Used
 - **Frontend:** HTML5, CSS3, JavaScript.
 ## Getting Started
-1. Clone the repository from GitHub: [GitHub Repo Link](link)
+1. Clone the repository from GitHub:(https://github.com/ansh8955/Resume-Template)
 2. Install dependencies by running `npm install`.
 3. Configure environment variables such as database connection strings, API keys, etc., in a `.env` file.
 4. Start the server by running `npm start`.
@@ -23,15 +23,11 @@ This project aims to develop a user-friendly application for creating and managi
 ## Contributing
 Contributions to the project are welcome! Feel free to fork the repository, make changes, and submit pull requests. Please ensure adherence to coding standards and practices.
 
-## License
-This project is licensed under the [insert license name]. See the LICENSE file for details.
-
 ## Contact
-For any inquiries or issues, please contact [insert contact email].
+For any inquiries or issues, please contact [upadhyayaansh094@gmail.com].
 
 ## Acknowledgments
-- Special thanks to [insert names] for their contributions and support.
-- This project was inspired by [insert inspiration source].
+- Special thanks to [Jubair] for their contributions and support.
 
 ## Disclaimer
 This project is developed for educational and learning purposes. It does not guarantee job offers or employment opportunities. Users are advised to verify and validate the information provided in their resumes before sharing them with potential employers.
