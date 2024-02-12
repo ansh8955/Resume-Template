@@ -65,6 +65,7 @@ margin: 1%;
     width: 60%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
+    height: 1000px;
 
 
 }
@@ -77,25 +78,25 @@ margin: 1%;
 }
 
 .display-main{
-    width: 102%;
-    height: 85%;
+    width: 100%;
+    height: 850px;
     display: flex;
     
 }
 
 .display-right{
+    /* height: 778px; */
     height: 100%;
     width: 60%;
-    margin-right: 2%;
-    margin-top: 0;
     background-color: #FFFFFF;
     margin-bottom: 0;
 
 }
 
 .display-left{
+    height: 100%;
     margin: 3%;
-    width: 36%;
+    width: 35%;
     margin-top: 0;
     margin-right:2%;
 }
@@ -106,7 +107,7 @@ margin: 1%;
 }
 .color{
     width: 100%;
-   height: 20vh;
+   height: 100%;
    padding: 4%;
 }
 
@@ -143,7 +144,7 @@ margin-bottom: 1px;
     text-align: justify;
     margin-left: 3.5px;
     width: 98.2%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .jobClass{
@@ -275,4 +276,49 @@ ul{
 .skillClass{
 background-color: black;
 color: #FFFFFF;
+}
+
+.colorcontainer{
+    height: 150px;
+}
+
+
+@media only screen and (240px<=width <=768px){
+
+
+    main {   
+        flex-direction: column;
+}
+
+form{
+    width: 100%;
+}
+
+.display-info{
+    width: 98%;
+}
+
+.display-right {
+margin-top: 4px;
+}
+
+.display-main{
+    height: 886px;
+}
+
+.colorcontainer {
+    height: 110px;
+}
+
+.mailDiv, .phoneDiv, .locationDiv{
+    text-align: none;
+}
+
+
+
+
+
+
+
+
 }
