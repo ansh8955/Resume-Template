@@ -123,7 +123,6 @@ Type.addEventListener("click", (e) => {
     displayInfo2.style.display = "block";
 
     displayFunctionTwo_Column2();
-    
 
     
     
@@ -134,7 +133,7 @@ Type.addEventListener("click", (e) => {
 
 function displayFunctionTwo_Column2(){
 
-console.log("hi");
+// console.log("hi");
 
     colorContainer.innerHTML = "";
     // console.log("hi")
