@@ -300,93 +300,6 @@ function displayFunctionMinimalist(){
    
 }
 
-// function displayFunctionMinimalist (){   
-
-//     // displayInfo.style.display = "none";
-//     // displayInfo2.style.display = "block";  
-
-//     console.log("hi");
-   
-//     // let displayColor = document.createElement("div");
-//     // let name  = document.createElement("p");
-//     // let job  = document.createElement("p");
-//     // let mail  = document.createElement("span");
-//     // let phone  = document.createElement("span");
-//     // let city  = document.createElement("span");
-//     // let summary  = document.createElement("p");
-//     // let skill  = document.createElement("p");
-
-
-
-//     displayColor.setAttribute("class", "displayColor");
-//     name.setAttribute("class", "inputName");
-//     job.setAttribute("class","jobClass");
-//     mail.setAttribute("class","mailClass");
-//     phone.setAttribute("class","phoneClass");
-//     city.setAttribute("class","cityClass");
-//     skill.setAttribute("class","skill");
-
-
-
-//     InputName.addEventListener("input",(e)=>{
-//        name.innerHTML =e.target.value;
-//     });
-
-
-//     emailInput.addEventListener("input",(e)=>{
-//         mail.innerHTML =e.target.value;
-    
-//     });
-//     phoneInput.addEventListener("input",(e)=>{
-//         phone.innerHTML =e.target.value;
-//     });
-//     cityInput.addEventListener("input",(e)=>{
-//         city.innerHTML =e.target.value;
-//     });
-
-//     professionalSummaryInput.addEventListener("input",(e)=>{
-//         summaryDIV.setAttribute("class","summaryDivClass");
-//         summary.innerHTML =e.target.value;
-//     });
-
-//     skillsInput.addEventListener("input",(e)=>{
-//         skill.innerHTML =e.target.value;
-//     });
-
-
-//     jobInput.addEventListener("input",(e)=>{
-//         job.innerHTML =e.target.value;
-//     });
-
-   
-//     colorDiv.appendChild(displayColor);
-//     displayColor.appendChild(name);
-//     displayColor.appendChild(job);
-
-//     mailDIV.appendChild(mail);
-//     phoneDIV.appendChild(phone);
-//     cityDIV.appendChild(city);
-//     summaryDIV.appendChild(summary);
-//     skillsDIV.appendChild(skill);
-    
-
-
-//     inputColor.addEventListener("input", (e) => {
-//       let colorChange = e.target.value;
-
-//       displayColor.style.backgroundColor = colorChange;
-//     });
-
-//     headerTextColorInput.addEventListener("input", (e) => {
-//       let colorChange = e.target.value;
-
-//       name.style.color = colorChange;
-//       job.style.color = colorChange;
-
-//     });
-
-// }
-
 
 let flagemp = false;
 
@@ -581,7 +494,6 @@ function projecttitle(e){
 
 }
 function projectDesc(e){
-    console.log( projectdata.childNodes);
    projectdata.childNodes[7].innerText = e.value;
 
 }
@@ -626,15 +538,3 @@ html2pdf(element, {
   });
 
 });
-
-// function generatePDF() {
-//     const element = document.querySelector('#pageDisplay');
-//         element.style.width="100%"
-//     html2pdf(element, {
-//         margin: 10,
-//         filename: "resume.pdf",
-//         image: { type: "jpeg", quality: 0.98 },
-//         html2canvas: { scale: 2 },
-//         jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-//       });
-// }
