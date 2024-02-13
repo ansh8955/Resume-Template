@@ -126,6 +126,10 @@ font-size: 30px;
 margin-bottom: 1px;
 }
 .display-info2{
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    height: 1000px;
     display: none;
 }
 
@@ -282,6 +286,13 @@ color: #FFFFFF;
     height: 150px;
 }
 
+#display-info2-display-right{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+}
+
 
 @media only screen and (240px<=width <=768px){
 
@@ -313,12 +324,5 @@ margin-top: 4px;
 .mailDiv, .phoneDiv, .locationDiv{
     text-align: none;
 }
-
-
-
-
-
-
-
 
 }

@@ -105,19 +105,27 @@ Type.addEventListener("click", (e) => {
   let Value = e.target.value;
   
 
-  if (Value == "Two Column") {  
+  if (Value == "Two Column" && flag == false) {  
    
+    displayInfo2.style.display = "none";
+    displayInfo.style.display = "block";
 
     displayFunctionTwo_Column2();
     
 
   } 
   
-  else if(Value == "Minimalist" && flagMinimal == false ) {
+  else if(Value == "Minimalist"  && flagMinimal == false) {
 
-    displayFunctionMinimalist()
+    // console.log("hi");
+
+    displayInfo.style.display = "none";
+    displayInfo2.style.display = "block";
+
+    displayFunctionTwo_Column2();
     
 
+    
     
   }
 });
@@ -126,7 +134,7 @@ Type.addEventListener("click", (e) => {
 
 function displayFunctionTwo_Column2(){
 
-
+console.log("hi");
 
     colorContainer.innerHTML = "";
     // console.log("hi")
@@ -170,6 +178,7 @@ function displayFunctionTwo_Column2(){
     // colorDIV.style.backgroundColor ="red";
     InputName.addEventListener("input",(e)=>{
         name.innerHTML =e.target.value;
+        // console.log("bye");
      });
 
      jobInput.addEventListener("input",(e)=>{
@@ -210,9 +219,8 @@ function displayFunctionTwo_Column2(){
 function displayFunctionMinimalist(){
 
 
-
     colorContainer.innerHTML = "";
-    console.log("hi")
+    // console.log("bye");
 
     let colorDIV = document.createElement("div");
   
@@ -223,16 +231,16 @@ function displayFunctionMinimalist(){
     colorDIV.setAttribute("class", "color");
 
 
-
-
     summaryDiv.innerHTML = `
     <p class="summarypara"></p>`
 
     colorDIV.innerHTML = `
-    <p class="inputName"></p>
+    <p class="inputName">"HI"</p>
     <p class="jobClass"></p>
     `
     colorContainer.appendChild(colorDIV);
+
+    // console.log(colorContainer);
 
 
     let name = document.querySelector(".inputName");
@@ -250,7 +258,10 @@ function displayFunctionMinimalist(){
       });
   
 
-    // colorDIV.style.backgroundColor ="red";
+    colorDIV.style.backgroundColor ="red";
+
+    console.log(colorDIV);
+
     InputName.addEventListener("input",(e)=>{
         name.innerHTML =e.target.value;
      });
@@ -287,16 +298,6 @@ function displayFunctionMinimalist(){
         job.style.color = colorChange;
   
       });
-
-
-    // displayColor.setAttribute("class", "displayColor");
-    // name.setAttribute("class", "inputName");
-    // job.setAttribute("class","jobClass");
-    // Mail.setAttribute("class","mailClass");
-    // Phone.setAttribute("class","phoneClass");
-    // City.setAttribute("class","cityClass");
-    // sill.setAttribute("class","skillClass");
-
    
 }
 
