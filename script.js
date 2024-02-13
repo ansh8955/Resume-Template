@@ -559,8 +559,6 @@ function edugetEnddate(e){
 
 
 
-
-
 function jobtitle(e){
 
     expdata.childNodes[7].innerText = e.value;
@@ -610,3 +608,33 @@ function edudesc(e){
 
 
 }
+
+
+// ***************************************
+
+const printPdf = document.querySelector("#printbtn");
+
+printPdf.addEventListener("click", ()=>{
+    const element = document.querySelector('#pageDisplay');
+    element.style.width="100%";
+html2pdf(element, {
+    margin: 10,
+    filename: "resume.pdf",
+    image: { type: "jpeg", quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+  });
+
+});
+
+// function generatePDF() {
+//     const element = document.querySelector('#pageDisplay');
+//         element.style.width="100%"
+//     html2pdf(element, {
+//         margin: 10,
+//         filename: "resume.pdf",
+//         image: { type: "jpeg", quality: 0.98 },
+//         html2canvas: { scale: 2 },
+//         jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+//       });
+// }
