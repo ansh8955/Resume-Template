@@ -1,4 +1,4 @@
-# Resume Maker Project README
+# Resume-Template Project README
 
 
 
