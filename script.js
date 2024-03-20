@@ -149,20 +149,6 @@ function displayFunctionTwo_Column2(){
 
 // console.log("hi");
 
-    colorContainer.innerHTML = "";
-    // console.log("hi")
-
-    let colorDIV = document.createElement("div");
-  
-    let summaryDiv = document.createElement("div");
-
-
-
-    colorDIV.setAttribute("class", "color");
-
-
-
-
     summaryDiv.innerHTML = `
     <p class="summarypara"></p>`
 
@@ -229,19 +215,21 @@ function displayFunctionTwo_Column2(){
 
    
 }
-function displayFunctionMinimalist(){
 
-
-    // colorContainer2.innerHTML = "";
-    // console.log("bye");
-
-    let colorDIV = document.createElement("div");
+let colorDIV = document.createElement("div");
   
     let summaryDiv = document.createElement("div");
 
 
 
     colorDIV.setAttribute("class", "color");
+function displayFunctionMinimalist(){
+
+
+    // colorContainer2.innerHTML = "";
+    // console.log("bye");
+
+    
 
 
     summaryDiv.innerHTML = `
